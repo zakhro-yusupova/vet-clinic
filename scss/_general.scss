@@ -1,0 +1,30 @@
+html {
+	height: 100%;
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+	scroll-behavior: smooth;
+}
+
+
+body {
+	font-family:  'FuturaPT', 'sans-serif';
+	margin: 0;
+	padding: 0;
+	background-color: #F9F8F8;
+	background-image: url("../images/body-bg.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position-y: 80px;
+	background-position-x: -40px;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	vertical-align: middle;
+}

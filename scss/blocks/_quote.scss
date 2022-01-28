@@ -1,0 +1,62 @@
+.quote{
+  padding-bottom: 191px;
+}
+
+.quote__inner{
+  width: 820px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.quote__top-line{
+  display: block;
+  width: 140px;
+  border: 0.5px solid #DBDBDB;
+  margin: 0 auto;
+  background-color:#DBDBDB;
+}
+
+.quote__text{
+  font-size: 20px;
+  line-height: 26px;
+  color: $main-text-color;
+  margin: 43px 0 ;
+  position: relative;
+
+&::before{
+  content: "";
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  right: -65px;
+  bottom: -15px;
+  background-image: url("../../images/quote-end.png");
+  background-repeat: no-repeat;
+}
+
+&::after{
+  content: "";
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: -40px;
+  left: -55px;
+  background-image: url("../../images/quote.png");
+  background-repeat: no-repeat;
+}
+}
+
+.quote__bottom-line{
+  display: block;
+  width: 140px;
+  border: 0.5px solid #DBDBDB;
+  margin: 0 auto;
+  margin-bottom: 35px;
+  background-color:#DBDBDB;
+}
+
+.quote__subtext{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+}

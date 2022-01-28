@@ -1,0 +1,60 @@
+.hero{
+  padding-top: 153px;
+  padding-bottom: 311px;
+  background-image: url("../images/hero-bg1.png"), url("../images/hero-bg-pet.png");
+  background-repeat: no-repeat;
+  background-position: calc(50% - 540px) calc(50% - 80px), calc(50% + 700px) calc(100%);
+}
+
+.hero__inner{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.hero__info{
+  width: 608px;
+  margin-left: 685px;
+  margin-right: auto;
+}
+
+.hero__title{
+  font-weight: bold;
+  font-size: 70px;
+  line-height: 64px;
+  color: $main-grey-color;
+}
+
+.hero__title-blue{
+  color: #78C0DE;
+}
+
+.hero__text-box{
+  width: 495px;
+}
+
+.hero__text{
+  line-height: 21px;
+  margin-top: 29px;
+  margin-bottom: 38px;
+  color: $main-text-color;
+}
+
+.hero__link{
+  border-radius: 3px;
+  color: #fff;
+  background-color: $main-grey-color;
+  padding: 15px 48px 16px 47px;
+  text-decoration: none;
+
+&:hover{
+  background-color: $main-orange-color;
+  color: $main-grey-color;
+}
+
+  &:active{
+    background-color: $main-orange-color;
+    color: $main-grey-color;
+    opacity: 0.6;
+  }
+}

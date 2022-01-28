@@ -1,0 +1,137 @@
+.articles{
+  padding-top: 151px;
+  padding-bottom: 265px;
+}
+
+.articles__title{
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 20px;
+  color: $main-grey-color;
+  margin-bottom: 80px;
+  text-align:center
+}
+
+.articles__list{
+  display: flex;
+  list-style-type: none;
+}
+
+.articles__item{
+  width: 305px;
+  background-color: #fff;
+}
+
+.articles__item + .articles__item{
+  margin-left: 24px;
+}
+
+.articles__item:nth-child(2){
+  width: 610px;
+  display: flex;
+}
+
+.articles__item-info{
+  padding: 21px 27px  30px ;
+}
+
+.articles__img{
+  margin-bottom: 21px;
+}
+
+.articles__time{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: $main-text-color;
+  margin-left: 182px;
+}
+
+.articles__subtitle{
+  width: 182px;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 25px;
+  color: #000000;
+  margin: 0;
+}
+
+.articles__text{
+  line-height: 20px;
+  margin-top: 15px;
+  margin-bottom: 45px;
+  color:$main-text-color;
+
+}
+
+.articles__sublink{
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: $main-grey-color;
+  margin-left: 30px;
+  position: relative;
+
+  &:hover{
+    color: $main-orange-color;
+  }
+
+  &:active{
+    color: $main-grey-color;
+    opacity: 0.8;
+  }
+
+  &::before{
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: -30px;
+    width: 25px;
+    height: 25px;
+    background-image: url("../../images/pet.svg");
+    background-repeat: no-repeat;
+  }
+}
+
+.articles__item-content{
+  padding: 42px 34px 38px 31px;
+}
+
+.links-info{
+  display: flex;
+
+}
+
+.links-info__link{
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 22px;
+  color: #3D9CEA;
+  margin-right: 8px;
+}
+
+
+.link-info__time{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: $main-text-color;
+  margin-left: 60px;
+  margin-bottom: 32px;
+}
+
+.articles__headline{
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 29px;
+  color: $main-grey-color;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.articles__desc{
+  line-height: 20px;
+  color: $main-text-color;
+  margin-right: 34px;
+}

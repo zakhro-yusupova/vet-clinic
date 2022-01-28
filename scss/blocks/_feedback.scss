@@ -1,0 +1,65 @@
+.feedback{
+  padding-bottom: 170px;
+}
+.feedback__inner{
+  display: flex;
+}
+
+.feedback__info-box{
+  margin-left: 165px;
+}
+
+.feedback__title{
+  color: #fff;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 62px;
+}
+
+.feedback__text{
+  width: 334px;
+  line-height: 20px;
+  color: $main-text-color;
+  margin-top: 14px;
+  margin-bottom: 29px;
+}
+.feedback__info{
+  width: 982px;
+  display: flex;
+  flex-direction: column;
+  background-color: $main-grey-color;
+  background-image: url("../images/feedback.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+
+}
+
+.form-feedback{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.form__feedback-textarea{
+  resize:none;
+  width: 375px;
+height: 165px;
+background-color: #fff;
+color: $main-text-color;
+outline: transparent;
+border-radius: 3px;
+margin-top: 14px;
+padding: 15px;
+}
+.form__feedback-label{
+  margin-bottom: 14px;
+}
+
+.form__feedback-button{
+  width: 226px;
+  padding: 15px 0 14px;
+  background-color: $main-orange-color;
+  margin-top: 30px;
+border: transparent;
+border-radius:3px ;
+}
